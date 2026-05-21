@@ -1,0 +1,8 @@
+[package]
+name = "aliasing_guard"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alias_macro = { path = "./alias_macro" }
+static_assertions = "1.1.0"

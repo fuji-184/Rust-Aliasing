@@ -1,0 +1,12 @@
+[package]
+name = "alias_macro"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "*", features = ["full", "derive", "visit"] }
+quote = { version = "*" }
+proc-macro2 = "*"
